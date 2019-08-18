@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
     info.each do |sub_attribute, names|
       names.each do |name|
       sorted_data[name] = attribute
+    end
     end 
   end
   sorted_data
