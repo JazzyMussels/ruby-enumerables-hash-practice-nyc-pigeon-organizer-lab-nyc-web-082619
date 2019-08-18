@@ -12,6 +12,6 @@ def nyc_pigeon_organizer(data)
       data.each do |attributes, sub_info|
         array.each do |item|
           if item == name && quality == attribute 
-            
+            sorted_data[name] = 
           
 end
