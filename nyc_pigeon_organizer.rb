@@ -8,10 +8,19 @@ def nyc_pigeon_organizer(data)
     end 
   end
   sorted_data.each do |name, info|
-    info.each do |quality, array|
+    info.each do |quality, sub_quality|
       data.each do |attributes, sub_info|
-        array.each do |item|
-          if item == name && quality == attribute 
-            sorted_data[name][quality] <<  
+        sub_info.each do |key, array|
+          
+          array.each do |item|
+          if item == name && quality == attributes 
+            sorted_data[name][quality] <<  key.to_s 
+          end
+        end 
+      end 
+    end
+  end 
+end 
+sorted_data
           
 end
