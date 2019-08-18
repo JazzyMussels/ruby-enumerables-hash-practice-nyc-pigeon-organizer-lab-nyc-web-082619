@@ -7,5 +7,5 @@ def nyc_pigeon_organizer(data)
     end
     end 
   end
-      
+  sorted_data
 end
