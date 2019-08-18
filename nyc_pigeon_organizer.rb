@@ -8,5 +8,6 @@ def nyc_pigeon_organizer(data)
     end 
   end
   sorted_data.each do |name, info|
-    info.each do |
+    info.each do |quality, array|
+      
 end
